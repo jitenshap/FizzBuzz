@@ -25,11 +25,11 @@ int main (int argc, char *argv[])
 	}
 	else if(inputNum % 5 == 0)
 	{
-		printf("Buzz");
+		printf("Buzz\n");
 	}
 	else
 	{
-		printf("%d", inputNum);
+		printf("%d\n", inputNum);
 	}
 	return 0;
 }
